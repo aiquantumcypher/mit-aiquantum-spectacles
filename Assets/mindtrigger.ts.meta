@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/b4cfc791-20fe-48fd-9c1f-05dd323d0054>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> de782ada-6c95-4a96-9da8-95d97db2adc6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> de782ada-6c95-4a96-9da8-95d97db2adc6
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b8148af9-cfba-4763-ab8b-396fa0b70161
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b8148af9-cfba-4763-ab8b-396fa0b70161>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 90b0e504-e9e5-4e3b-82b6-a092033f90c3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    serverIP: false
+    targetObject: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      serverIP: 192.168.1.46
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject targetObject
+    - '// @input string serverIP = "192.168.1.46"'
